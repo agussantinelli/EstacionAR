@@ -1,8 +1,11 @@
-# Dependencies
 node_modules/
 .pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Environment variables
+.turbo/
+
 .env
 .env.local
 .env.development.local
@@ -10,39 +13,51 @@ node_modules/
 .env.production.local
 *.env
 *.env.*
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# Turborepo
-.turbo/
-
-# Build outputs
+.expo/
 dist/
-build/
-out/
-.next/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# IDEs
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# React Native
+web-build/
+expo-env.d.ts
+.metro-health-check*
+/ios
+/android
 ios/Pods/
 ios/build/
 android/app/build/
 android/.gradle
 *.apk
 *.aab
+*.orig.*
+.kotlin/
 
-# Prisma
 /prisma/migrations/*/migration_lock.toml
+*.db
+*.db-journal
+
+build/
+out/
+.next/
+*.tsbuildinfo
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+coverage/
+.nyc_output/
