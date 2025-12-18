@@ -102,14 +102,10 @@
 <h2>📐 Estructura del Monorepo</h2>
 <pre>
 estacionar-monorepo/
-├── 📂 apps/
-│   ├── 📱 mobile/          # React Native (Zustand, Feature-based)
-│   └── 💻 api/             # Express (Prisma, Clean Architecture)
-├── 📂 packages/
-│   ├── 📁 shared/          # Interfaces, Enums y DTOs (Typescript)
-│   ├── 📁 config/          # Configuraciones de ESLint, Prettier, TS
-│   └── 📁 ui/              # Componentes de diseño compartidos
-└── turbo.json              # Configuración de pipeline
+├── 📂 frontend/        # React Native (Expo, Zustand)
+├── 📂 backend/         # Express (Prisma, Clean Architecture)
+├── package.json        # Configuración del Workspaces
+└── turbo.json          # Configuración de pipeline
 </pre>
 
 <h2>🛡️ Estándares de Calidad y Seguridad</h2>
@@ -129,7 +125,7 @@ npm install
 </pre>
 
 <h3>2. Variables de Env</h3>
-<p>Configura tu <code>.env</code> en <code>apps/api/</code>:</p>
+<p>Configura tu <code>.env</code> en <code>backend/</code>:</p>
 <ul>
   <li><code>DATABASE_URL="postgresql://user:password@localhost:5432/estacion-ar"</code></li>
   <li><code>GOOGLE_MAPS_KEY="your_key"</code></li>
