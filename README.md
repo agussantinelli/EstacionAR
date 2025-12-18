@@ -14,9 +14,26 @@
 
 <hr>
 
+<h2>💼 Modelo de Negocio y Oportunidad</h2>
+<p>
+  En la Argentina, la búsqueda de estacionamiento representa una de las mayores fricciones en la movilidad urbana, generando pérdidas de tiempo de hasta 20 minutos por trayecto en centros densamente poblados como CABA, Córdoba o Rosario.
+</p>
+
+<p>
+  <b>EstacionAR</b> capitaliza esta oportunidad mediante un ecosistema digital que conecta la oferta ociosa con la demanda activa:
+</p>
+
+<ul>
+  <li><b>Oportunidad de Mercado:</b> Digitalización de playas de estacionamiento tradicionales que hoy operan de forma analógica, permitiéndoles aumentar su tasa de ocupación mediante reservas anticipadas.</li>
+  <li><b>Monetización:</b> Modelo de comisión por transacción (Service Fee) y suscripciones Premium para usuarios corporativos que requieren facturación centralizada y espacios garantizados.</li>
+  <li><b>Valor Agregado:</b> Integración con <b>MercadoPago</b> para eliminar la fricción del efectivo y uso de <b>Google Maps API</b> para una navegación <i>door-to-door</i> sin interrupciones.</li>
+</ul>
+
+<hr>
+
 <h2>🏗️ Arquitectura del Sistema</h2>
 <p>
-  EstacionAR no es solo una app; es una infraestructura diseñada bajo el paradigma de <b>Clean Architecture</b>, garantizando que las reglas de negocio sean independientes de los frameworks y la base de datos.
+  Diseñada bajo el paradigma de <b>Clean Architecture</b>, garantizando que las reglas de negocio sean independientes de los frameworks y la base de datos.
 </p>
 
 
@@ -83,8 +100,6 @@
 </table>
 
 <h2>📐 Estructura del Monorepo</h2>
-<p>Utilizamos una estructura modular para facilitar la escalabilidad y el mantenimiento:</p>
-
 <pre>
 estacionar-monorepo/
 ├── 📂 apps/
@@ -102,7 +117,6 @@ estacionar-monorepo/
   <li><b>Validación:</b> Implementación estricta de esquemas con <b>Zod</b> en cada entrada de la API.</li>
   <li><b>Seguridad:</b> Autenticación robusta vía <b>JWT</b> y manejo de sesiones.</li>
   <li><b>Errores:</b> Sistema centralizado mediante la clase <code>AppError</code> para respuestas consistentes.</li>
-  <li><b>UI/UX:</b> Componentes atómicos y hooks personalizados para desacoplar la lógica de la vista.</li>
 </ul>
 
 <h2>🚦 Guía de Inicio Rápido</h2>
@@ -110,7 +124,7 @@ estacionar-monorepo/
 <h3>1. Clonar y Configurar</h3>
 <pre>
 git clone https://github.com/agussantinelli/EstacionAR.git
-cd estacion-ar
+cd EstacionAR
 npm install
 </pre>
 
@@ -129,6 +143,11 @@ npx turbo run dev
 </pre>
 
 <hr>
+
+<h3 align="center">Checklist de Calidad EstacionAR ✅</h3>
+<p align="center">
+  [x] Arquitectura Limpia | [x] Tipado TypeScript | [x] Zod Validation | [x] Real-time Ready
+</p>
 
 <p align="center">
   <i>"Liderando la transformación digital de la movilidad en Argentina."</i>
