@@ -109,7 +109,7 @@ estacionar-monorepo/
 
 <h3>1. Clonar y Configurar</h3>
 <pre>
-git clone https://github.com/tu-usuario/estacion-ar.git
+git clone https://github.com/agussantinelli/EstacionAR.git
 cd estacion-ar
 npm install
 </pre>
@@ -117,7 +117,7 @@ npm install
 <h3>2. Variables de Env</h3>
 <p>Configura tu <code>.env</code> en <code>apps/api/</code>:</p>
 <ul>
-  <li><code>DATABASE_URL="postgresql://user:password@localhost:5432/estacionar"</code></li>
+  <li><code>DATABASE_URL="postgresql://user:password@localhost:5432/estacion-ar"</code></li>
   <li><code>GOOGLE_MAPS_KEY="your_key"</code></li>
   <li><code>MERCADOPAGO_TOKEN="your_token"</code></li>
 </ul>
