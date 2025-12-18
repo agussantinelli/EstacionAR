@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Builds de TypeScript
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Entorno y Secretos (CRÍTICO)
+.env
+.env.*
+
+# Prisma
+# Ignoramos la base de datos SQLite si alguna vez la usas localmente para pruebas rápidas
+*.sqlite
+*.sqlite-journal
+
+# Tests
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+
