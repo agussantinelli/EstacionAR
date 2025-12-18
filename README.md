@@ -1,4 +1,4 @@
-<h1 align="center">🇦🇷 EstacionARG</h1>
+<h1 align="center">🇦🇷 EstacionAR</h1>
 
 <p align="center">
   <b>La solución definitiva para la gestión y localización de estacionamientos en la República Argentina.</b><br>
