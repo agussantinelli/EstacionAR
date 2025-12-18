@@ -117,7 +117,8 @@ estacionar-monorepo/
 
 <h2>🚦 Guía de Inicio Rápido</h2>
 
-<h3>1. Clonar y Configurar</h3>
+<h3>1. Clonar e Instalar</h3>
+<p>Gracias a la arquitectura monorepo, corremos <code>npm install</code> <b>una sola vez en la raíz</b>. Esto instala las dependencias de <code>frontend</code>, <code>backend</code> y paquetes compartidos automáticamente.</p>
 <pre>
 git clone https://github.com/agussantinelli/EstacionAR.git
 cd EstacionAR
