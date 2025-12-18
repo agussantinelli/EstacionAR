@@ -144,11 +144,6 @@ npx turbo run dev
 
 <hr>
 
-<h3 align="center">Checklist de Calidad EstacionAR ✅</h3>
-<p align="center">
-  [x] Arquitectura Limpia | [x] Tipado TypeScript | [x] Zod Validation | [x] Real-time Ready
-</p>
-
 <p align="center">
   <i>"Liderando la transformación digital de la movilidad en Argentina."</i>
 </p>
