@@ -3,7 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Architecture-Clean%20Architecture-blue?style=for-the-badge" alt="Clean Arch">
   <img src="https://img.shields.io/badge/Monorepo-Turborepo-ef4444?style=for-the-badge" alt="Turborepo">
-  <img src="https://img.shields.io/badge/Database-PostgreSQL%20%2B%20Prisma-336791?style=for-the-badge" alt="Database">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma">
 </p>
 
 <p align="center">
@@ -17,6 +18,8 @@
 <p>
   EstacionAR no es solo una app; es una infraestructura diseñada bajo el paradigma de <b>Clean Architecture</b>, garantizando que las reglas de negocio sean independientes de los frameworks y la base de datos.
 </p>
+
+
 
 <ul>
   <li><b>Domain Layer:</b> Entidades puras y reglas de negocio.</li>
@@ -49,9 +52,18 @@
     <td>Servicio REST con TypeScript y Middleware centralizado.</td>
   </tr>
   <tr>
-    <td>🐘 Persistence</td>
-    <td><b>PostgreSQL + Prisma</b></td>
-    <td>Modelado de datos estricto y seguro (Type-safe).</td>
+    <td>🐘 Database</td>
+    <td>
+      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="Postgres">
+    </td>
+    <td>Motor relacional robusto para datos críticos.</td>
+  </tr>
+  <tr>
+    <td>💎 ORM</td>
+    <td>
+      <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma">
+    </td>
+    <td>Acceso a datos Type-safe y migraciones automatizadas.</td>
   </tr>
   <tr>
     <td>⚡ Real-Time</td>
@@ -102,12 +114,12 @@ cd estacion-ar
 npm install
 </pre>
 
-<h3>2. Variables de Entorno</h3>
-<p>Configura tu <code>.env</code> en <code>apps/api/</code> y <code>apps/mobile/</code>:</p>
+<h3>2. Variables de Env</h3>
+<p>Configura tu <code>.env</code> en <code>apps/api/</code>:</p>
 <ul>
-  <li><code>DATABASE_URL</code> (PostgreSQL)</li>
-  <li><code>GOOGLE_MAPS_KEY</code></li>
-  <li><code>MERCADOPAGO_ACCESS_TOKEN</code></li>
+  <li><code>DATABASE_URL="postgresql://user:password@localhost:5432/estacionar"</code></li>
+  <li><code>GOOGLE_MAPS_KEY="your_key"</code></li>
+  <li><code>MERCADOPAGO_TOKEN="your_token"</code></li>
 </ul>
 
 <h3>3. Ejecutar en Desarrollo</h3>
