@@ -8,8 +8,9 @@
 </p>
 
 <p align="center">
-  <b>📂 Documentación del Proyecto:</b> 
-  <a href="https://drive.google.com/drive/folders/1Mrx5P99qKzFQkeS_k2Ay6ri0yqkENoVK?usp=drive_link"><b>Explorar Recursos y Diagramas</b></a>
+  <a href="https://drive.google.com/drive/folders/1Mrx5P99qKzFQkeS_k2Ay6ri0yqkENoVK?usp=drive_link">
+    <img src="https://img.shields.io/badge/Documentación-Google%20Drive-34A853?style=for-the-badge&logo=googledrive&logoColor=white" alt="Project Documentation">
+  </a>
 </p>
 
 <p align="center">
