@@ -16,7 +16,7 @@
 
 <h2>💼 Modelo de Negocio y Oportunidad</h2>
 <p>
-  En la Argentina, la búsqueda de estacionamiento representa una de las mayores fricciones en la movilidad urbana, generando pérdidas de tiempo de hasta 20 minutos por trayecto en centros densamente poblados como CABA, Córdoba o Rosario.
+  En las grandes urbes, la búsqueda de estacionamiento representa una de las mayores fricciones en la movilidad urbana, generando pérdidas de tiempo de hasta 20 minutos por trayecto en centros densamente poblados como CABA, Córdoba o Rosario.
 </p>
 
 <p>
