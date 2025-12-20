@@ -8,6 +8,11 @@
 </p>
 
 <p align="center">
+  <b>📂 Documentación del Proyecto:</b> 
+  <a href="https://drive.google.com/drive/folders/1Mrx5P99qKzFQkeS_k2Ay6ri0yqkENoVK?usp=drive_link"><b>Explorar Recursos y Diagramas</b></a>
+</p>
+
+<p align="center">
   <b>Sistema de Reservas y Gestión de Estacionamiento de Alto Nivel</b><br>
   Arquitectura de software escalable, modular y orientada al dominio para el mercado argentino.
 </p>
@@ -36,14 +41,14 @@
   Diseñada bajo el paradigma de <b>Clean Architecture</b>, garantizando que las reglas de negocio sean independientes de los frameworks y la base de datos.
 </p>
 
-
-
 <ul>
   <li><b>Domain Layer:</b> Entidades puras y reglas de negocio.</li>
   <li><b>Application Layer:</b> Casos de uso (Reservas, Búsqueda, Pagos).</li>
   <li><b>Infrastructure Layer:</b> Implementaciones de Express, Prisma ORM y React Native.</li>
   <li><b>Shared Package:</b> DTOs e Interfaces compartidas mediante el monorepo para evitar duplicidad de tipos.</li>
 </ul>
+
+<hr>
 
 <h2>🛠️ Stack Tecnológico (Elite Tier)</h2>
 
